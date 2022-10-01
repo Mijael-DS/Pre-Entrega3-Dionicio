@@ -1,0 +1,207 @@
+/* General */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Para el responsive */
+/* Colores */
+/* en _pages es usado este metodo */
+/* index principal */
+.conteiner-principal {
+  background-image: url(../img/spacejoy-9M66C_w_ToM-unsplash.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.conteiner-principal a:hover {
+  color: chocolate;
+  transition: all 2s;
+}
+.conteiner-principal .principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  align-items: center;
+  text-align: center;
+}
+.conteiner-principal .principal h1 {
+  color: #BF5A36;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center;
+}
+.conteiner-principal .principal p {
+  font-size: 3rem;
+  color: #D98D62;
+}
+.conteiner-principal .principal a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 1s;
+  color: #0C2126;
+}
+.conteiner-principal .principal a:hover {
+  color: black;
+  transition: all 1s;
+  background-color: #D98D62;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+/* max 360px */
+@media (min-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+}
+/* @media  (min-width: $desktop) {
+    html{
+      font-size: 100%;
+    }
+} */
+/* Secciones del index y main de Productos */
+.sect-conteiner {
+  background-color: #D98D62;
+  /* imagenes */
+}
+.sect-conteiner .section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+}
+.sect-conteiner .section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+}
+.sect-conteiner h2 {
+  text-decoration: underline;
+  font-weight: 600;
+  font-style: italic;
+  color: #F2F2F2;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+.sect-conteiner p {
+  font-style: italic;
+  color: #0C2126;
+  font-size: 1rem;
+}
+.sect-conteiner .img-item {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 15px;
+  gap: 8px;
+}
+.sect-conteiner .img-item .capa-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4%;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+.sect-conteiner .img-item .capa-img img {
+  max-width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+  border-radius: 4%;
+}
+.sect-conteiner .img-item .capa-img .subtitulo-item {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.7137254902);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(155, 101, 63);
+}
+.sect-conteiner .img-item .capa-img:hover .subtitulo-item {
+  opacity: 1;
+  visibility: visible;
+}
+.sect-conteiner .img-item .capa-img:hover img {
+  padding: 3%;
+  transition: all 1s ease-out;
+}
+.sect-conteiner .img-item .capa-img h4 {
+  font-size: 20px;
+}
+
+/* Servicio */
+.main-service {
+  text-align: center;
+  background: linear-gradient(#F2F2F2, #BF5A36, #F2B885);
+}
+
+.main-h1 {
+  padding: 50px 0px;
+}
+.main-h1 h1 {
+  color: #0C2126;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.conteiner-service {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-img {
+  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+}
+.service-img img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.service-subtitulo {
+  padding: 5px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-subtitulo h2 {
+  font-size: 2rem;
+  color: #0C2126;
+}
+.service-subtitulo p {
+  color: #F2F2F2;
+}
+
+.cont-main {
+  background: linear-gradient(35deg, #F2B885, #F2F2F2);
+}
+
+.link {
+  display: flex;
+}
+.link img {
+  height: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}/*# sourceMappingURL=main.css.map */
