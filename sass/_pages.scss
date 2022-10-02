@@ -1,16 +1,15 @@
 /* Secciones del index y main de Productos */
 .sect-conteiner  {
-     background-color:$bg ;
+    background-color:$bg ;
+    
     .section-one {
       @include section
-      
     } 
     
     .section-two  {
-     
       @include section
     }
-
+    
     h2  {
       text-decoration: underline;
       font-weight: 600;
@@ -25,8 +24,8 @@
       color: $underline;
       font-size: 1rem;
     }  
-
-/* imagenes */
+     
+    /* imagenes */
     .img-item {
       display: flex;
       justify-content: space-evenly;
@@ -142,6 +141,8 @@
   }
   
 }
+
+
   
   
 

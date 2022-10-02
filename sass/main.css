@@ -6,6 +6,8 @@
 }
 
 /* Para el responsive */
+/* $tablet: 768px;
+$desktop: 1200px;  */
 /* Colores */
 /* en _pages es usado este metodo */
 /* index principal */
@@ -59,11 +61,6 @@
     font-size: 70%;
   }
 }
-/* @media  (min-width: $desktop) {
-    html{
-      font-size: 100%;
-    }
-} */
 /* Secciones del index y main de Productos */
 .sect-conteiner {
   background-color: #D98D62;
