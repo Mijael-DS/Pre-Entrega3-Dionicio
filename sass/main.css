@@ -137,6 +137,9 @@ $desktop: 1200px;  */
   transition: all 1s ease-out;
 }
 .sect-conteiner .img-item .capa-img h4 {
+  font-size: 25px;
+}
+.sect-conteiner .img-item .capa-img p {
   font-size: 20px;
 }
 
@@ -212,7 +215,7 @@ $desktop: 1200px;  */
 
 .accordion {
   padding: 60px 0px;
-  margin: 0px 60px;
+  margin: 0px 50px;
   text-align: center;
 }
 
