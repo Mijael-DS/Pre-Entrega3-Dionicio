@@ -21,22 +21,18 @@
     text-align: center;
       
     h1  {
-      color: $ya;
+      color: $underline;
       font-size: 4rem;
       font-style: italic;
       text-align: center;
-    }
-  
-    p {
-      font-size: 3rem;
-      color: $bg;
+      padding: 5px;
     }
   
     a {
       font-size: 1.5rem;
       text-decoration: none;
       transition: all 1s;
-      color: $underline;
+      color: $ya;
       &:hover {
         color: black;
         transition: all 1s;
