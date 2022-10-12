@@ -60,7 +60,8 @@ $desktop: 1200px;  */
 }
 /* Secciones del index y main de Productos */
 .sect-conteiner {
-  background-color: #D98D62;
+  background: linear-gradient(to top, #BF5A36, #D98D62);
+  /* background-color:$bg ; */
   /* imagenes */
 }
 .sect-conteiner .section-one {

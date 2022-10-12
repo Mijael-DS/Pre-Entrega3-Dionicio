@@ -1,7 +1,7 @@
 /* Secciones del index y main de Productos */
 .sect-conteiner  {
-  background-color:$bg ;
-  
+  background: linear-gradient(to top, $ya, $bg);
+  /* background-color:$bg ; */
   .section-one {
     @include section
   } 
